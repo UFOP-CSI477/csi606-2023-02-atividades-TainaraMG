@@ -3,11 +3,11 @@
 
 ## Atualize os seus dados
 
-- Nome:
-- Matrícula:
-- Curso:
-- Semestre/Ano correntes:
-- Link para o seu GitHub:
+- Nome: Tainara Marina Gonçalves Morais
+- Matrícula: 21.1.8043
+- Curso: Sistemas de Informação
+- Semestre/Ano correntes: 6° semestre
+- Link para o seu GitHub: 
 
 ## [Projeto final:](./Projeto/README.md)
 
