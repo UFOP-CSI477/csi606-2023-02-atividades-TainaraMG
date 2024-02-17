@@ -1,0 +1,144 @@
+{
+	"info": {
+		"_postman_id": "0da163b0-5000-4b85-bfc6-ec0a452476ad",
+		"name": "Contrato",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33012241"
+	},
+	"item": [
+		{
+			"name": "contratos",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "contrato by id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4444/contratos/id",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4444",
+					"path": [
+						"contratos",
+						"id"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "contrato",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"imovel_id\": 5,\r\n    \"status\": 1,\r\n    \"data_assinatura\": \"2024-02-16T00:00:00.000Z\",\r\n    \"validade\": 12,\r\n    \"dia_vencimento_parcelas\": 5\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4444/contratos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4444",
+					"path": [
+						"contratos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "contrato",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4444/contratos/id",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4444",
+					"path": [
+						"contratos",
+						"id"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "contrato",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4444/contratos/6",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4444",
+					"path": [
+						"contratos",
+						"6"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "aluguel-prox-venc",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4444/contratosproxvenc",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4444",
+					"path": [
+						"contratosproxvenc"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "renda",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4444/contratosrenda",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4444",
+					"path": [
+						"contratosrenda"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "mysql2": "^3.9.1",
+    "nodemon": "^3.0.3",
+    "pg": "^8.11.3",
+    "sequelize": "^6.37.0"
+  }
+}
