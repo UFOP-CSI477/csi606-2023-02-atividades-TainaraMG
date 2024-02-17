@@ -15,30 +15,51 @@
 Como só o backend foi implementado, as funcionalidades implementadas foram as seguintes:
 
 *Contratos:*
+
 -Buscar Todos os Contratos: Permite obter uma lista de todos os contratos registrados no sistema.
+
 -Buscar Contrato por ID: Permite buscar um contrato específico com base no seu ID.
+
 -Criar Novo Contrato: Possibilita criar um novo contrato no sistema.
+
 -Atualizar Contrato Existente: Permite atualizar as informações de um contrato já existente.
+
 -Excluir Contrato Existente: Permite excluir um contrato do sistema.
+
 -Buscar Contratos de Aluguel Próximos ao Vencimento: Retorna os contratos de aluguel que estão próximos do vencimento.
 
 *Imóveis:*
+
 -Buscar Todos os Imóveis: Permite obter uma lista de todos os imóveis cadastrados no sistema.
+
 -Buscar Imóvel por ID: Permite buscar informações de um imóvel específico com base no seu ID.
+
 -Criar Novo Imóvel: Permite adicionar um novo imóvel ao catálogo da imobiliária.
+
 -Atualizar Imóvel Existente: Permite atualizar as informações de um imóvel já cadastrado.
+
 -Excluir Imóvel Existente: Permite excluir um imóvel do catálogo da imobiliária.
+
 -Quantidade de Imóveis Alugados: Retorna o número de imóveis alugados.
+
 -Quantidade de Imóveis Vendidos: Retorna o número de imóveis vendidos.
+
 -Quantidade de Imóveis Disponíveis: Retorna o número de imóveis disponíveis para aluguel ou venda.
+
 -Quantidade Total de Imóveis: Retorna o número total de imóveis cadastrados no catálogo da imobiliária.
 
 *Usuários:*
+
 -Buscar Todos os Usuários: Permite obter uma lista de todos os usuários cadastrados no sistema.
+
 -Buscar Usuário por ID: Permite buscar informações de um usuário específico com base no seu ID.
+
 -Criar Novo Usuário: Permite adicionar um novo usuário ao sistema.
+
 -Atualizar Usuário Existente: Permite atualizar as informações de um usuário já cadastrado.
+
 -Excluir Usuário Existente: Permite excluir um usuário do sistema.
+
 -Login do Usuário: Permite que um usuário faça login no sistema.
 
 
@@ -46,7 +67,9 @@ Como só o backend foi implementado, as funcionalidades implementadas foram as s
 No contexto do backend, todas as funcionalidades previstas foram implementadas, exceto a obtenção do retorno da renda mensal gerada por cada categoria de imóvel. Essa funcionalidade não foi implementada porque não consegui fazer com que funcionasse.
 
 Devido à ausência de frontend, as seguintes funcionalidades relacionadas à interface do usuário não foram implementadas:
+
 -Tela de Catálogo de Imóveis: Esta tela permitiria que os clientes da imobiliária visualizassem os imóveis disponíveis juntamente com as informações relevantes sobre eles, facilitando a busca e seleção de propriedades.
+
 -Tela de Dashboard para o Administrador: Essa tela seria destinada ao administrador da imobiliária, fornecendo uma visão geral das métricas importantes, como número de contratos ativos, renda mensal, número de imóveis disponíveis, entre outras informações relevantes para a gestão do negócio.
 
 
